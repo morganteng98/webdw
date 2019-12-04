@@ -21,9 +21,9 @@
             <a class="nav-link" href="#">Services</a>
           </li>
           <li class="nav-item">
-            <button>
-              <a class="nav-link" type="button" data-toggle="modal" data-target="#login">Masuk</a>
-            </button>
+            
+              <a class="btn btn-danger" type="button" data-toggle="modal" data-target="#login">Masuk</a>
+            
           </li> 
           <li class="nav-item">
             <button>
