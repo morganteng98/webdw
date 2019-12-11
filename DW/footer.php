@@ -11,18 +11,8 @@
 						</a>
 					</li>
 					<li class="my-2">
-						<a href="antrian.php">
-							Antrian
-						</a>
-					</li>
-					<li class="my-2">
 						<a href="toko.php">
 							Toko
-						</a>
-					</li>
-					<li class="mb-2">
-						<a href="tentang.php">
-							Tentang
 						</a>
 					</li>
 				</ul>

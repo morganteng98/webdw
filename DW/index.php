@@ -13,37 +13,8 @@
 	<div class="slide-wrapper" style="width:300%;">
 		<div class="slide">
 			<div class="slide-caption text-center">
-				<span class="badge badge-dark" style="font-size: 21px;margin-bottom: 10px">Jadwal Buka</span>
-			  
-				<?php include "function/koneksi.php"; ?>
 				
-				<?php
-              $queryselect = "SELECT * FROM jadwal";
-              $resultselect = mysqli_query($koneksi,$queryselect);
-            ?>
-
-
-            <table class="table table-striped" style="color: black;background-color: white">
-              <thead>
-                <tr>
-                  <th scope="col">HARI</th>
-                  <th scope="col">JAM BUKA</th>
-                 </tr>
-              </thead>
-              <tbody>
-     
-			<?php
-			  while ($row=mysqli_fetch_array($resultselect)) {
-			  ?>
-			    <tr>
-			      <th><?php echo $row['hari']; ?></th>
-			      <th><?php echo $row['jam_kerja']; ?></th>
-			    </tr>
-			  <?php
-			}
-			  ?>
-			  </tbody>
-			</table>
+	
 
 
 			   </p>
