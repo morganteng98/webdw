@@ -3,9 +3,7 @@
 	$ambil=$koneksi->query("SELECT * FROM produk WHERE id_produk='$_GET[id]'");
 	$pecah=$ambil->fetch_assoc();
 
-	echo "<pre>";
-	print_r($pecah);
-	echo "</pre>";
+
 ?>
 
 <form method="post" enctype="multipart/form-data">
@@ -17,14 +15,23 @@
 		<label>Jenis Produk</label>
 		
 		<select type="text" name="jenis" class="form-control" value="<?php echo $pecah['jenis_produk']?>">
-				<option>--Pilih Jenis Produk--</option>
-				<option value="aki">Gitar</option>
-				<option value="aki">Keyboard</option>
-				<option value="aki">drum</option>
-				<option value="aki">Biola</option>
-				<option value="aki">Sound System</option>
+				<option>--Belum Memilih Produk--</option>
+				<option value="alat_musik">Alat Musik</option>
+				<option value="sparepart">Sparepart</option>
+				<option value="asesoris">Asesoris</option>
+				<option value="eletronik">Elektronik</option>
 				
 			</select>
+
+<!-- kategori
+ALAT MUSIK : GITAR DRUM DLL
+SPAREPART : GITAR DRUM DLL (SENAR GTR)
+ASESORIS : CEKELANE GITAAR, PICK , STIK DRAM
+ELEKTRINIK : sOUND
+
+
+ -->
+
 	</div>
 	<div class="form-group">
 		<label>Stok</label>
@@ -63,15 +70,17 @@
 
 			$koneksi->query("UPDATE produk SET nama_produk='$_POST[nama]',
 				jenis_produk='$_POST[jenis]',stok='$_POST[stok]',foto_produk='$namafoto',
-				deskripsi='$_POST[deskripsi]' WHERE id_produk='$_GET[id]'");
+				deskripsi='$_POST[deskripsi]',
+				harga_produk='$_POST[harga]' WHERE id_produk='$_GET[id]'");
 		}
 		else
 		{
 			$koneksi->query("UPDATE produk SET nama_produk='$_POST[nama]',
 				jenis_produk='$_POST[jenis]',stok='$_POST[stok]',
-				deskripsi='$_POST[deskripsi]' WHERE id_produk='$_GET[id]'");
+				deskripsi='$_POST[deskripsi]',
+				harga_produk='$_POST[harga]' WHERE id_produk='$_GET[id]'");
 		}
-		echo "<script>alert('data produk telah di ubah')</script>";
+		echo "<script>alert('Data Produk telah di ubah')</script>";
 		echo "<script>location='index.php?halaman=produk';</script>";
 	}
 ?>
