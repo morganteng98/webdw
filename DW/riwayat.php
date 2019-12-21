@@ -17,7 +17,7 @@
 <body>
 
 <section class="Welcome py-5">
-	<div class="container">
+	<div class="container" style="padding:bottom">
 		<div class="welcome" style="margin-top: 100px">
 			
 			<h3>Riwayat Belanja <?php echo $_SESSION["user"]["nama_pelanggan"] ?> </h3>
@@ -67,5 +67,3 @@
 </section>
 
 
-
-<?php include "footer.php" ?>

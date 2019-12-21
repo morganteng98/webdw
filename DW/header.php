@@ -79,11 +79,6 @@
 					</li>
 
 					<?php endif  ?>
-					
-					<button id="trigger-overlay" type="button">
-							<i class="fas fa-search"></i>
-						</button>
-
 				</ul>
 
 			</div>

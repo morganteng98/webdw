@@ -1,21 +1,4 @@
 
-<!-- footer -->
-<footer class="footer py-5">
-	<div class="container py-sm-4">
-	
-			
-		<div class="row">
-			
-
-			
-
-			
-	</div>
-	<!-- //footer bottom -->
-</footer>
-<!-- //footer -->
-
-<!-- copyright -->
 <div class="cpy-right text-center">
 	<p>DW MUSIK <br/>
 </div>
