@@ -2,6 +2,8 @@
 <html lang="en">
 <head>
 <title>DW MUSIC</title>
+<link rel="icon" type="image/png" href="../img/com.android.bbkmusic.png"/>
+
 	
 	<!-- Meta tag Keywords -->
 	<meta name="viewport" content="width=device-width, initial-scale=1">

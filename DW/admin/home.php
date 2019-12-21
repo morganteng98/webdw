@@ -1,4 +1,4 @@
-<h2 style="color: black;text-align: center">Selamat datang <b>Admin</b> di Bengkel Online</h2>
+<h2 style="color: black;text-align: center">Selamat datang <b>Admin</b> DW Musik</h2>
 <hr>
 
  <table class="table" >
@@ -19,6 +19,8 @@
                                 <th>:</th>
                                 <td><?php echo $_SERVER["HTTP_USER_AGENT"]; ?></td>
                             </tr>
+
+                            
                             </tbody>
                         </table>
 

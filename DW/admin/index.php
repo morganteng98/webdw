@@ -16,7 +16,17 @@
 <head>
       <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Free Bootstrap Admin Template : Binary Admin</title>
+    <title>DW Musik
+
+    </title>
+
+    <link rel="icon" type="image/png" href="../../img/com.android.bbkmusic.png"/>
+
+
+ 
+
+
+
 	<!-- BOOTSTRAP STYLES-->
     <link href="assets/css/bootstrap.css" rel="stylesheet" />
      <!-- FONTAWESOME STYLES-->
@@ -88,10 +98,10 @@ background-repeat: no-repeat;">
 -->
      <li><a href=""><i class="fa fa-users"></i> Manajemen User<span class="fa arrow"></span></a>
         <ul class="nav nav-second-level">
-          <li><a href="index.php?halaman=pelanggan">pelanggan</a></li>
+          <li><a href="index.php?halaman=pelanggan">Pelanggan</a></li>
         </ul>                    
       </li>
-      <li><a href="index.php?halaman=jadwal"><i class="fa fa-clock-o "></i>Jadwal</a></li>
+     <!--  <li><a href="index.php?halaman=jadwal"><i class="fa fa-clock-o "></i>Jadwal</a></li> -->
       <li><a href="index.php?halaman=tentang"><i class="fa fa-share-alt "></i>Tentang</a></li>
       <li><a href="index.php?halaman=logout"></i>Keluar</a></li>
 
@@ -174,8 +184,8 @@ background-repeat: no-repeat;">
                     }
                     elseif ($_GET['halaman']=="ubah_produk"){
                       include 'ubah_produk.php';
-                    }
-                    elseif ($_GET['halaman']=="jadwal_tambah"){
+                    
+                /*    elseif ($_GET['halaman']=="jadwal_tambah"){
                         include 'jadwal_tambah.php';
                     }
                     elseif ($_GET['halaman']=="jadwal_ubah"){
@@ -184,7 +194,7 @@ background-repeat: no-repeat;">
                     elseif ($_GET['halaman']=="jadwal_hapus"){
                         include 'jadwal_hapus.php';
                     }
-                    elseif ($_GET['halaman']=="tentang"){
+                */  }  elseif ($_GET['halaman']=="tentang"){
                         include 'tentang.php';
                     }
                     elseif ($_GET['halaman']=="logout"){

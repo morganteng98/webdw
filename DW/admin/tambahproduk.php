@@ -8,12 +8,11 @@
 		<div class="form-group">
 			<label>Jenis Produk</label>
 			<select type="text" class="form-control" name="jenis">
-				<option>--Pilih Jenis Produk--</option>
-				<option value="aki">Gitar</option>
-				<option value="aki">Keyboard</option>
-				<option value="aki">drum</option>
-				<option value="aki">Biola</option>
-				<option value="aki">Sound System</option>
+				<option>--Belum Memilih Produk--</option>
+				<option value="alat_musik">Alat Musik</option>
+				<option value="sparepart">Sparepart</option>
+				<option value="asesoris">Asesoris</option>
+				<option value="eletronik">Eletronik</option>
 			</select>
 		</div>
 		<div class="form-group">
@@ -47,6 +46,7 @@
 				VALUES('$_POST[nama]','$_POST[jenis]','$_POST[stok]','$nama','$_POST[deskripsi]','$_POST[harga]')");
 
 				echo "<div class='alert alert-info'> Data Tersimpan</div>";
-				echo "<meta http-equiv='refresh' content='1;url=index.php'>";
+				echo "<meta http-equiv='refresh' content='1;url=index.php?halaman=produk'>";
+
 		}
 	?>
