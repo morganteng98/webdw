@@ -13,11 +13,8 @@
 	<div class="slide-wrapper" style="width:300%;">
 		<div class="slide">
 			<div class="slide-caption text-center">
-				
-	
-
-
-			   </p>
+				<h4 class="text-uppercase">SELAMAT DATANG <span>DI WEB DW MUSIK </span></h4>
+			   <p class="my-4">Web DW MUSIK adalah situs penjualan online alat musik, penyewaan alat musik, serta penyewaan studio musik.</p>
 			   <div class="read">
 				</div>				
 			</div>
@@ -25,7 +22,7 @@
 		<div class="slide slide2">
 			<div class="slide-caption text-center">
 				<h4 class="text-uppercase">Cara <span>Pembayaran </span></h4>
-			   <p class="my-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed eum vitae, illum? Aut consectetur doloribus accusamus quaerat et velit numquam illo tempore blanditiis odit ad voluptas vel, sit, labore quisquam.</p>
+			   <p class="my-4">Pembayaran dapat dilakukan dengan 2 cara yaitu : pembayaran melalui ATM dan pembayaran langsung atau cash on delivery (COD)</p>
 			   <div class="read">
 					
 				</div>	
@@ -58,8 +55,8 @@
 	<div class="container py-sm-5">
 		<div class="welcome-grids row">
 			<div class="col-lg-6 mb-lg-0 mb-5">
-				<h3 class="mt-lg-4">DW Music</h3>
-				<p class="my-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed eum vitae, illum? Aut consectetur doloribus accusamus quaerat et velit numquam illo tempore blanditiis odit ad voluptas vel, sit, labore quisquam.
+				<h3 class="mt-lg-4">DW Musik</h3>
+				<p class="my-4">DW Musik merupakan toko penjualan alat musik yang berdomisili di Jember, Jawa Timur. DW Musik juga menyediakan penyewaan alat musik dan studio musik.
 
 </p>
 				
