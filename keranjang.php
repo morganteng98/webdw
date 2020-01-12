@@ -60,6 +60,3 @@ background-repeat: no-repeat;color:white">
 			</div>	
 		</div>	
 </section>
-
-
-<?php include "footer.php" ?>
