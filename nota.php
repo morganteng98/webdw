@@ -2,7 +2,7 @@
 	session_start();
 	include "function/koneksi1.php";
 	include "head.php";
-	include "header.php";
+	include "header_welcome.php";
  ?>
 <body>
 	
@@ -74,7 +74,7 @@
 				<center>
 				<p>
 				 <strong>
-				 	Silahkan melakukan pembayaran senilai Rp. <?php echo number_format( $detail['total_pembelian']); ?> ke BANK XXX 6013 - xxxx - xxxx - xxxx AN. BENGKOL<br/>
+				 	Silahkan melakukan pembayaran senilai Rp. <?php echo number_format( $detail['total_pembelian']); ?> ke BANK XXX 6013 - xxxx - xxxx - xxxx AN. DWI DARA MUSIK<br/>
 				 </strong>	
 				</p>
 				</center>
@@ -85,25 +85,13 @@
 				<p>
 				 <strong>
 				  Barang akan dikirim jika telah melakukan pembayaran sesuai nominal<br/>
-				  Atau	
-				 </strong>	
-				</p>
-				</center>
-			</div>
-		</div>
-
-		<div class="col-md-12">
-			<div class="alert alert-danger">
-				<center>
-				<p>
-				 <strong>
+				  Atau</br>
 				  Barang akan dikirim jika telah melakukan pembayaran secara tunai!	
 				 </strong>	
 				</p>
 				</center>
 			</div>
-		</div>
-		
+		</div>		
 	</div>
 
 			</div>	

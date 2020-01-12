@@ -2,7 +2,7 @@
 	session_start();
 	include "function/koneksi1.php";
 	include "head.php";
-	include "header.php";
+	include "header_welcome.php";
  ?>
  <?php 
   $id_produk = $_GET["id"];
@@ -51,5 +51,7 @@
 	</div>	
 </section>
 
-
-<?php include "footer.php" ?>
+<footer>
+<div class="cpy-right text-center" style="background-color: #FF8C00;margin-top: 130px">
+	<p>DW MUSIK <br/>
+</footer>

@@ -3,12 +3,12 @@
 	<form method="post" enctype="multipart/form-data">
 		<div class="form-group">
 			<label>Nama Produk</label>
-			<input type="text" class="form-control" name="nama">		
+			<input type="text" class="form-control" name="nama" required="required">		
 		</div>
 		<div class="form-group">
 			<label>Jenis Produk</label>
-			<select type="text" class="form-control" name="jenis">
-				<option>--Belum Memilih Produk--</option>
+			<select type="text" class="form-control" name="jenis" required="required">
+				<option value="">--Belum Memilih Produk--</option>
 				<option value="alat_musik">Alat Musik</option>
 				<option value="sparepart">Sparepart</option>
 				<option value="asesoris">Asesoris</option>
@@ -17,20 +17,20 @@
 		</div>
 		<div class="form-group">
 			<label>Stok</label>
-			<input type="number" class="form-control" name="stok">
+			<input type="number" class="form-control" name="stok" required="required">
 					
 		</div>
 		<div class="form-group">
 			<label>Foto Produk</label>
-			<input type="file" class="form-control" name="foto">		
+			<input type="file" class="form-control" name="foto" required="required">		
 		</div>
 		<div class="form-group">
 			<label>Deskripsi</label>
-			<textarea class="form-control" name="deskripsi" rows="10"></textarea>		
+			<textarea class="form-control" name="deskripsi" rows="10" required="required"></textarea>		
 		</div>
 		<div class="form-group">
 			<label>Harga (Rp)</label>
-			<input type="number" class="form-control" name="harga">		
+			<input type="number" class="form-control" name="harga" required="required">		
 		</div>
 		<button class="btn btn-primary" name="save">Simpan</button>			
 

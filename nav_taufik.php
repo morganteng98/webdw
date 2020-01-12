@@ -1,4 +1,4 @@
-<div class="container" style="background-color: gray">
+<div class="container" style="background-color: #FF8C00">
  <div class="nav-scroller bg-black py-1 mb-2">
     <ul class="nav d-flex justify-content-between">
       
@@ -8,7 +8,7 @@
 
       <li class="dropdown ">
       	<a href="ktgr_alatmusik.php" class="dropdown-toggle p-2 text-light">Alat Musik <b class="fa fa-caret-down"></b></a>
-						<ul class="dropdown-menu"style="background-color: gray">
+						<ul class="dropdown-menu"style="background-color: orange">
 							<li><a href="#" class="p-2 text-light">JAKET</a></li>
 							<li><a href="#" class="p-2 text-light">OLAHRAGA</a></li>
 						</ul>
@@ -19,7 +19,7 @@
 
       	<a href="ktgr_sparepart.php" class="dropdown-toggle p-2 text-light">Sparepart <b class="fa fa-caret-down"></b></a>
 
-						<ul class="dropdown-menu"style="background-color: gray">
+						<ul class="dropdown-menu"style="background-color: orange">
 							<li><a href="#" class="p-2 text-light">JAKET</a></li>
 							<li><a href="#" class="p-2 text-light">OLAHRAGA</a></li>
 						</ul>

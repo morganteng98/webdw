@@ -1,9 +1,40 @@
-<h2>Data Pelanggan</h2>
+
+
+
+         
+          <div></br></div>
+          <div class="card shadow mb-4">
+            <div class="card-header py-3">
+              <h6 class="m-0 font-weight-bold text-primary">Data Pelanggan</h6>
+            </div>
+            <div class="card-body">
+
+            <li class="nav-item dropdown no-arrow d-sm-none">
+              <a class="nav-link dropdown-toggle" href="#" id="searchDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <i class="fas fa-search fa-fw"></i>
+              </a>
+              <!-- Dropdown - Messages -->
+              <div class="dropdown-menu dropdown-menu-right p-3 shadow animated--grow-in" aria-labelledby="searchDropdown">
+                <form class="form-inline mr-auto w-100 navbar-search">
+                  <div class="input-group">
+                    <input type="text" class="form-control bg-light border-0 small" placeholder="Search for..." aria-label="Search" aria-describedby="basic-addon2">
+                    <div class="input-group-append">
+                      <button class="btn btn-primary" type="button">
+                        <i class="fas fa-search fa-sm"></i>
+                      </button>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </li>
+
+              <div class="table-responsive">
+
 
 <table class="table table-bordered">
 		<thead>
 			<tr>
-				<th>No</th>
+				<th>ID</th>
 				<th>Nama</th>
 				<th>Email</th>
 				<th>Telepon</th>
@@ -21,8 +52,8 @@
 				<td><?php echo $pecah['email_pelanggan'];?></td>
 				<td><?php echo $pecah['nomer_telepon'];?></td>
 				<td>
-				  <a href="index.php?halaman=hapus_pelanggan&id=<?php echo $pecah['id_pelanggan']; ?>" class="btn-danger btn">Hapus</a>
-					<a href="" class="btn btn-warning btn">Ubah</a>
+				  <a href="index.php?halaman=hapus_pelanggan&id=<?php echo $pecah['id_pelanggan']; ?>" class="btn-danger btn"><i class="fas fa-trash"></i></a>
+					
 				</td>
 			</tr>
 			<?php $nomor++; ?>

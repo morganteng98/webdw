@@ -30,6 +30,6 @@
 			</div>	
 		</div>	
 </section>
-<div class="cpy-right text-center">
-	<p>DW MUSIK <br/>
-</div>
+<?php 
+	include 'footer.php';
+ ?>

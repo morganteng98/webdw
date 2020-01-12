@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>DW MUSIC</title>
+<title>Dwi Dara</title>
 <link rel="icon" type="image/png" href="../img/com.android.bbkmusic.png"/>
 
 	

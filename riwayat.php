@@ -1,8 +1,8 @@
 <?php
 	session_start();
-	include "function/koneksi1.php";
+	include "function/koneksi.php";
 	include "head.php";
-	include "header.php";
+	include "header_welcome.php";
 
 
 

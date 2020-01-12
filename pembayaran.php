@@ -2,7 +2,7 @@
 	session_start();
 	include "function/koneksi1.php";
 	include "head.php";
-	include "header.php";
+	include "header_welcome.php";
 
 
 

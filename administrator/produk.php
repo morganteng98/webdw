@@ -62,8 +62,10 @@
 				<td><?php echo $pecah['deskripsi'];?></td>
 				<td>Rp.<?php echo $pecah['harga_produk'];?></td>
 				<td>
-					<a href="index.php?halaman=delete_produk&id=<?php echo $pecah['id_produk']; ?>" class="btn-danger btn">Hapus</a>
-					<a href="index.php?halaman=ubah_produk&id=<?php echo $pecah['id_produk']; ?>" class="btn btn-warning btn">Ubah</a>
+
+          <a href="index.php?halaman=ubah_produk&id=<?php echo $pecah['id_produk']; ?>" class="btn btn-warning btn"><i class="fas fa-exclamation-triangle"></i></a>
+					<a href="index.php?halaman=delete_produk&id=<?php echo $pecah['id_produk']; ?>" class="btn-danger btn"><i class="fas fa-trash"></i></a>
+
 				</td>
 			</tr>
 			<?php $nomor++; ?>

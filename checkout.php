@@ -42,9 +42,9 @@
 	<!--//web font-->
 
 </head>
-<?php include "header.php"; ?>
+<?php include "header_welcome.php"; ?>
 
-<body style="background-image: url(images/bg1.jpg);background-size: cover;
+<body style="background-color: white;
 }
 background-repeat: no-repeat;color:white">
 	

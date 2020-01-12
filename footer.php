@@ -2,7 +2,7 @@
 <!-- copyright -->
 </body>
 <footer>
-<div class="cpy-right text-center" style="">
+<div class="cpy-right text-center" style="background-color: #FF8C00;">
 	<p>DW MUSIK <br/>
 </footer>
 </div>

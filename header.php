@@ -30,7 +30,7 @@
 			<div class="logo">
 				<h1>
 					<a class="navbar-brand" href="index.php">
-					<i class="fa fa-music"></i>  DW MUSIK</a>
+					<i class="fa fa-music"></i>  DWI DARA MUSIK</a>
 				<!-- fab blue fas white -->
 				</h1>
 			</div>
@@ -51,20 +51,14 @@
 					<li class="nav-item">
 						<a class="nav-link" href="keranjang.php">Keranjang</a>
 					</li>
-					<?php if (isset($_SESSION["user"])):  ?>
-						<li class="nav-item">
-						<a class="nav-link" href="checkout.php">Checkout</a>
-						</li>
-						<li class="nav-item">
-						<a class="nav-link" href="Riwayat.php">Riwayat</a>
-						</li>
-
+					<?php if (isset($_SESSION["user"])):  ?>		
 						<li class="nav-item dropdown">
 						<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 							<strong><?php echo $_SESSION['nama'];  ?></strong>
 							<i class="fas fa-angle-down"></i>
 						</a>
 						<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+							<a class="dropdown-item" href="Riwayat.php">Riwayat</a>
 							<a class="dropdown-item" href="logout.php" title="">keluar</a>
 						</div>
 

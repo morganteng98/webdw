@@ -2,7 +2,7 @@
 	session_start();
 	include "function/koneksi1.php";
 	include "head.php";
-	include "header.php";
+	include "header_welcome.php";
 
     if (empty($_SESSION['keranjang']) OR !isset($_SESSION['keranjang'])) 
     {
@@ -12,7 +12,7 @@
 
  ?>
 
-<body style="background-image: url(images/motro.jpg);background-size: cover;
+<body style="background-color: white;
 }
 background-repeat: no-repeat;color:white">
 	
